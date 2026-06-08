@@ -18,3 +18,7 @@ EIDORS must be initialized in your MATLAB workspace before running the simulatio
 3. In the command window, run the EIDORS startup script:
    ```matlab
    run('C:\Path\To\Your\eidors3.11\eidors\startup.m')
+4. You should see EIDORS: <Version> print in the console. You are now ready to run the simulations.
+
+## File manifest
+``text
