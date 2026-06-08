@@ -14,15 +14,19 @@ Due to hardware compliance voltage limitations discovered in the V2.0 PCB iterat
 ```text
 ├── /firmware                  # MicroPython code for the RP2040 (Raspberry Pi Pico)
 │   ├── main.py                # Main state machine and execution loop
-│   ├── ad5933.py              # I2C driver for the AD5933 Impedance Converter
-│   └── mux_control.py         # GPIO routing logic for the 16-channel matrix
+│   ├── ad5933_wakeup.py       # AD5933 initialisation
+│   ├── eit_driver.py          # I2C driver for the AD5933 Impedance Converter
+│   └── MUX_control.py         # GPIO routing logic for the 16-channel matrix
 │
 ├── /simulations               # MATLAB scripts using the EIDORS toolbox
-│   ├── validation_3D.m        # Core 3D EIT simulation (Single Target)
-│   ├── spatial_variance.m     # Multi-quadrant spatial variance loop
+│   ├── ValidationCode.m       # Core 3D EIT simulation (Single Target)
+│   ├── SpatialComparison.m    # Multi-quadrant spatial variance loop
 │   └── README_Simulations.md  # Specific instructions for EIDORS dependencies
 │
-├── /hardware_docs             # (Optional) Schematics and PCB Layouts
-│   └── V2_Schematic.pdf       # Schematic outlining the AFE and routing matrix
-│
+├── /hardware_docs             # Schematics and PCB Layouts
+│   ├── EIT_CONNECTIONS.pdf    # Patient protection block layout
+│   ├── EIT_CURRENTSTAGE.pdf   # Analogue front end layout
+│   ├── EIT_MULTICONTROLLER.pdf # Pi Pico 2 arrangement with pins
+│   ├── EIT_MUXERS.pdf         # Multiplexer routing arrangement
+│   └── EIT_board.PcbPrj       # Altium PCB project
 └── README.md                  # This document
