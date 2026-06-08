@@ -49,8 +49,9 @@ To validate the architecture, the MicroPython switching matrix was algorithmical
 1. Ensure you have MATLAB installed.
 2. Download and install the EIDORS 3.11 Toolbox.
 3. In the MATLAB console, initialize EIDORS by running:
+```matlab
 run /path/to/eidors/startup.m^M
-
+```
 4. Open and run validation_3D.m to generate the 3D thresholded tomograms and 2D cross-sectional slices.
 # Flashing the Firmware
 1. Flash your Raspberry Pi Pico with the latest MicroPython UF2 bootloader.
