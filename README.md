@@ -1,4 +1,4 @@
-# 3D Wearable Electrical Impedance Tomography (EIT) System
+# Electical Impedance Tomography with Embroidered Electrodes
 
 ![Status: Prototype / Simulated Validation](https://img.shields.io/badge/Status-Simulated%20Validation-blue)
 ![Platform: Raspberry Pi Pico](https://img.shields.io/badge/Platform-RP2040%20(Pico)-green)
