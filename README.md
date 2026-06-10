@@ -13,7 +13,6 @@ Due to hardware compliance voltage limitations discovered in the V2.0 PCB iterat
 
 ```text
 ├── /firmware                  # MicroPython code for the RP2040 (Raspberry Pi Pico)
-│   ├── main.py                # Main state machine and execution loop
 │   ├── ad5933_wakeup.py       # AD5933 initialisation
 │   ├── eit_driver.py          # I2C driver for the AD5933 Impedance Converter
 │   └── MUX_control.py         # GPIO routing logic for the 16-channel matrix
